@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_revert"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/ibtnRevert_playerSettingsFragment"
+        android:contentDescription="@string/stringIbtnRevert"
+        android:alpha="0.75"/>
+
+    <Button
+        android:text="@string/stringBtnSaveChanges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ibtnRevert_playerSettingsFragment"
+        android:layout_toRightOf="@+id/ibtnRevert_playerSettingsFragment"
+        android:id="@+id/btnSaveChanges_playerSettingsFragment"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        tools:ignore="RtlHardcoded"
+        android:alpha="0.75"/>
+
+    <TextView
+        android:text="@string/stringTvAmountOfDobbles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_above="@+id/spAmountOfDobbles_playerSettingsFragment"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spAmountOfDobbles_playerSettingsFragment"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"/>
+
+    <TextView
+        android:text="@string/stringBtnCreateNewPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/spAmountOfDobbles_playerSettingsFragment"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/swPinguïns_playerSettingsFragment"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:alpha="0.75"/>
+
+    <TextView
+        android:text="@string/stringTvLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_above="@+id/spLevel_playerSettingsFragment"
+        android:layout_toLeftOf="@+id/btnSaveChanges_playerSettingsFragment"
+        android:layout_toStartOf="@+id/btnSaveChanges_playerSettingsFragment" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spLevel_playerSettingsFragment"
+        android:layout_marginBottom="17dp"
+        android:layout_above="@+id/textView3"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:text="stringBtnSaveChanges"
+        tools:ignore="HardcodedText"/>
+</RelativeLayout>

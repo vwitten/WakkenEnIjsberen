@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_revert"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/ibtnRevert_selectPlayerFragment"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:contentDescription="@string/stringIbtnRevert"
+        android:alpha="0.75"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/ibtnRevert_selectPlayerFragment"
+        android:layout_toEndOf="@+id/ibtnRevert_selectPlayerFragment"
+        android:id="@+id/btnCreateNewPlayer_selectPlayerFragment"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/lvSelectPlayer_selectPlayerFragment"
+        android:text="@string/stringBtnCreateNewPlayer"
+        style="@style/Widget.AppCompat.Button"
+        android:alpha="0.75"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ibtnRevert_selectPlayerFragment"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/lvSelectPlayer_selectPlayerFragment" />
+</RelativeLayout>

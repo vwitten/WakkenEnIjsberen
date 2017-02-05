@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stringBtnSelectPlayer">Speler Selecteren</string>
+    <string name="stringBtnRanking">Ranglijst</string>
+    <string name="stringBtnPlayerScores">Speler Scores</string>
+    <string name="stringBtnPlay">Spelen</string>
+    <string name="stringTvAmountOfDobbles">Hoeveelheid Dobbelstenen:</string>
+    <string name="stringTvAmountOfDobblesSettings">Hoeveelheid Dobbelstenen:</string>
+    <string name="stringTvPinguinsUse">Pinguïns aan/uit</string>
+    <string name="stringTvPinguinsUseSettings">Pinguïns aan/uit</string>
+    <string name="stringTvPlayerName">speler Naam</string>
+    <string name="stringTvSelectedPlayer">[Geselecteerde Speler]</string>
+    <string name="stringBtnSaveChanges">Wijzigingen Opslaan</string>
+    <string name="stringBtnCreatePlayer">Maak Speler Aan</string>
+    <string name="stringBtnCreateNewPlayer">Nieuwe Speler Aanmaken</string>
+    <string name="stringBtnThrow">Gooi!</string>
+    <string name="stringBtnCheckAnswers">Controleren</string>
+    <string name="stringTvCorrect">Goed</string>
+    <string name="stringTvIceHoles">Wakken:</string>
+    <string name="stringTvLevel"></string>
+    <string name="stringTvPinguins">Pinguïns:</string>
+    <string name="stringTvPolarBears">Ijsberen:</string>
+    <string name="stringTvTimer">Tijd</string>
+    <string name="stringTvWrong">Fout</string>
+    <string name="stringCorrect">Goed</string>
+    <string name="stringFillInInput">Vul alle velden in!</string>
+    <string name="stringLvl2Unlocked">Level 2 is vrijgespeeld</string>
+    <string name="stringLvl3Unlocked">Level 3 is vrijgespeeld</string>
+    <string name="stringMessageSelectPlayer">Selecteer eerst een speler</string>
+    <string name="stringWrong">Fout</string>
+    <string name="stringSaveSettings">Wijzigingen zijn opgeslagen!</string>
+</resources>

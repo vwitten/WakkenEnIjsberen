@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/btnCreateNewPlayer_selectPlayerFragment"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/stringBtnCreateNewPlayer"
+        style="@style/Widget.AppCompat.Button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_toRightOf="@+id/ibtnRevert_selectPlayerFragment"
+        android:layout_toEndOf="@+id/ibtnRevert_selectPlayerFragment"
+        android:alpha="0.75"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvSelectPlayer_selectPlayerFragment"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ibtnRevert_selectPlayerFragment" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_revert"
+        android:id="@+id/ibtnRevert_selectPlayerFragment"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:contentDescription="@string/stringIbtnRevert"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/btnCreateNewPlayer_selectPlayerFragment"
+        android:alpha="0.75"/>
+</RelativeLayout>

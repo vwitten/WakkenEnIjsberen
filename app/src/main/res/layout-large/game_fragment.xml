@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        app:srcCompat="@android:drawable/ic_menu_revert"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/ibtnRevert_gameFragment"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/stringIbtnRevert"
+        android:alpha="0.75"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:text="@string/stringBtnThrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/btnThrow_gamefragment"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            tools:ignore="ButtonStyle,ObsoleteLayoutParam"
+            android:alpha="0.75"/>
+
+        <Button
+            android:text="@string/stringBtnCheckAnswers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCheckAnswer_gamefragment"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            tools:ignore="ButtonStyle"
+            android:alpha="0.75"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ibtnRevert_gameFragment"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tvLevel_gameFragment"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/table"
+        android:layout_below="@+id/tvLevel_gameFragment"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1.0">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/d1"
+                android:id="@+id/ivDobbel1_gameFragment"
+                android:layout_weight="0.25"
+                android:contentDescription="@string/stringIbtnRevert"
+                android:alpha="0.75"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/d1"
+                android:id="@+id/ivDobbel2_gameFragment"
+                android:layout_weight="0.25"
+                android:contentDescription="@string/stringIbtnRevert"
+                android:alpha="0.75"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/d1"
+                android:id="@+id/ivDobbel3_gameFragment"
+                android:layout_weight="0.25"
+                android:contentDescription="@string/stringIbtnRevert"
+                android:alpha="0.75"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                app:srcCompat="@drawable/d1"
+                android:id="@+id/ivDobbel4_gameFragment"
+                android:layout_weight="0.25"
+                android:layout_height="200dp"
+                android:contentDescription="@string/stringIbtnRevert"
+                android:alpha="0.75"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1.0">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/d1"
+                android:id="@+id/ivDobbel5_gameFragment"
+                android:layout_weight="0.25"
+                android:contentDescription="@string/stringIbtnRevert"
+                android:alpha="0.75"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/d1"
+                android:id="@+id/ivDobbel6_gameFragment"
+                android:layout_weight="0.25"
+                android:contentDescription="@string/stringIbtnRevert"
+                android:alpha="0.75"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/d1"
+                android:id="@+id/ivDobbel7_gameFragment"
+                android:layout_weight="0.25"
+                android:contentDescription="@string/stringIbtnRevert"
+                android:alpha="0.75"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/d1"
+                android:id="@+id/ivDobbel8_gameFragment"
+                android:layout_weight="0.25"
+                android:contentDescription="@string/stringIbtnRevert"
+                android:alpha="0.75"/>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="100dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="@string/stringTvWakken"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6"
+                android:layout_weight=".33"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+            <TextView
+                android:text="@string/stringTvPolarBears"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:layout_weight=".33"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+            <TextView
+                android:text="@string/stringTvPinguins"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_weight=".33"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/edWakken_gamefragment"
+                android:layout_weight=".33"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:alpha="0.75"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/edPolarBears_gamefragment"
+                android:layout_weight=".33"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:alpha="0.75"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/edPinguïns_gamefragment"
+                android:layout_weight=".33"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:alpha="0.75"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+            <TextView
+                android:text="@string/stringTvTimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10"
+                android:layout_weight=".33"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+            <TextView
+                android:text="@string/stringTvWrong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9"
+                android:layout_weight=".33"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+            <TextView
+                android:text="@string/stringTvCorrect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8"
+                android:layout_weight=".33"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Chronometer
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/chTimer_gameFragment"
+                android:layout_weight=".33"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:alpha="0.75"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvWrong_gameFragment"
+                android:layout_weight=".33"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:alpha="0.75"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvCorrect_gameFragment"
+                android:layout_weight=".33"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:alpha="0.75"/>
+        </TableRow>
+
+    </TableLayout>
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_revert"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/ibtnRevert_createNewPlayerFragment"
+        android:contentDescription="@string/stringIbtnRevert"
+        android:alpha="0.75"/>
+
+    <Button
+        android:text="@string/stringBtnCreatePlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/ibtnRevert_createNewPlayerFragment"
+        android:id="@+id/btnCreatePlayer_createNewPlayerFragment"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/ibtnRevert_createNewPlayerFragment"
+        tools:ignore="RtlHardcoded"
+        android:alpha="0.75"/>
+
+    <TextView
+        android:text="@string/stringTvPlayerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="99dp"
+        android:id="@+id/textView11"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_below="@+id/ibtnRevert_createNewPlayerFragment"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/textView11"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11"
+        android:id="@+id/edPlayerName_createNewPlayerFragment"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:alpha="0.75"/>
+
+    <TextView
+        android:text="@string/stringTvPinguinsUse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView14"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/spAmountOfDobbles_createNewPlayerFragment"
+        android:layout_alignLeft="@+id/spAmountOfDobbles_createNewPlayerFragment"
+        android:layout_alignStart="@+id/spAmountOfDobbles_createNewPlayerFragment" />
+
+    <TextView
+        android:text="@string/stringTvAmountOfDobbles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView13"
+        android:layout_below="@+id/edPlayerName_createNewPlayerFragment"
+        android:layout_alignLeft="@+id/edPlayerName_createNewPlayerFragment"
+        android:layout_alignStart="@+id/edPlayerName_createNewPlayerFragment"
+        android:layout_marginTop="19dp" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/swPinguïns_createNewPlayerFragment"
+        android:layout_below="@+id/textView14"
+        android:layout_alignLeft="@+id/textView14"
+        android:layout_alignStart="@+id/textView14"
+        android:alpha="0.75"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spAmountOfDobbles_createNewPlayerFragment"
+        android:layout_below="@+id/textView13"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_alignStart="@+id/textView13"/>
+</RelativeLayout>
