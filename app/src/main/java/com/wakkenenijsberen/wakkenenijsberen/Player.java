@@ -1,7 +1,9 @@
 package com.wakkenenijsberen.wakkenenijsberen;
 
 import android.widget.ArrayAdapter;
-
+/*
+Dit is een test voor github.
+ */
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
