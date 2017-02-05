@@ -2,7 +2,7 @@ package com.wakkenenijsberen.wakkenenijsberen;
 
 import android.widget.ArrayAdapter;
 /*
-Dit is een test voor github123.
+Dit is een test voor github1234.
  */
 import java.io.Serializable;
 import java.util.ArrayList;
